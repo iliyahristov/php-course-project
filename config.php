@@ -5,8 +5,8 @@ class Database {
 
     private function __construct() {
         $this->connection =
-            new mysqli("localhost", "iliyahristov_com",
-                "eN53w98Fm2lV2wf", "university");
+            new mysqli("localhost", "iliyahristov",
+                "eN53w98Fm2lV2wf-Aqqqmvi18364", "university");
         mysqli_set_charset($this->connection, "utf8mb4");
 
         if ($this->connection->connect_error) {
