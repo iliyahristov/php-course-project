@@ -1,7 +1,6 @@
 <?php
 require_once 'config.php';
 
-// Обработка на POST заявки
 if (isset($_POST['save_student'])) {
     $db = Database::getInstance();
     $conn = $db->getConnection();
